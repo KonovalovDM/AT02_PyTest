@@ -3,8 +3,8 @@ from main import count_vowels  # Предполагается, что функц
 
 def test_only_vowels_latin():
     """Проверяем строку, содержащую только гласные на латинице."""
-    assert count_vowels("aeiou") == 5
-    assert count_vowels("AEIOU") == 5
+    assert count_vowels("aeiouy") == 6
+    assert count_vowels("AEIOUY") == 6
 
 def test_only_vowels_cyrillic():
     """Проверяем строку, содержащую только гласные на кириллице."""
